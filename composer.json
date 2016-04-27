@@ -1,0 +1,29 @@
+{
+    "name": "logikostech/common",
+    "homepage" : "https://github.com/logikostech/common",
+    "description": "Miscellaneous useful classes, interfaces, and traits",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "phalcon",
+        "plugin",
+        "logikostech",
+        "logikos"
+    ],
+    "authors": [
+        {
+            "name": "Todd Empcke",
+            "email": "tempcke@logikostech.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "ext-phalcon": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Logikos\\": "src/",
+            "Logikos\\Tests\\": "tests/"
+        }
+    }
+}
