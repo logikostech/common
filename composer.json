@@ -4,11 +4,13 @@
     "description": "Miscellaneous useful classes, interfaces, and traits",
     "type": "library",
     "license": "MIT",
+    "minimum-stability": "dev",
     "keywords": [
         "phalcon",
         "plugin",
         "logikostech",
-        "logikos"
+        "logikos",
+        "common"
     ],
     "authors": [
         {
